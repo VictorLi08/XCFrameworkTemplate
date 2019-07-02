@@ -1,0 +1,6 @@
+framework module NewSwiftFramework_macOS {
+  umbrella header "NewSwiftFramework_macOS.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/victorli/Gitdir/Ongoing/Genkei-0/NewSwiftFramework/Build/Products/Debug/NewSwiftFramework_macOS.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "NewSwiftFramework_macOS-Swift.h",
+          'external-contents': "/Users/victorli/Gitdir/Ongoing/Genkei-0/NewSwiftFramework/Build/Products/Debug/NewSwiftFramework_macOS.framework/Versions/A/Headers/NewSwiftFramework_macOS-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "NewSwiftFramework_macOS.h",
+          'external-contents': "/Users/victorli/Gitdir/Ongoing/Genkei-0/NewSwiftFramework/NewSwiftFramework-macOS/NewSwiftFramework_macOS.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/victorli/Gitdir/Ongoing/Genkei-0/NewSwiftFramework/Build/Products/Debug/NewSwiftFramework_macOS.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/victorli/Gitdir/Ongoing/Genkei-0/NewSwiftFramework/Build/Intermediates.noindex/NewSwiftFramework.build/Debug/NewSwiftFramework-macOS.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

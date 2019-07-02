@@ -1,0 +1,6 @@
+framework module NewSwiftFramework {
+  umbrella header "NewSwiftFramework.h"
+
+  export *
+  module * { export * }
+}
