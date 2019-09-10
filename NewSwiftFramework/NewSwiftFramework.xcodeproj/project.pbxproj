@@ -21,6 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		D50B18D2232836CD0005439E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D50B18D1232836CD0005439E /* README.md */; };
 		D52E22A522CAE7B100850337 /* NewSwiftFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D52E22A322CAE7B100850337 /* NewSwiftFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D540CEA223275D4000A1A7E0 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = D540CEA123275D4000A1A7E0 /* Example.swift */; };
 		D540CEBC23275DE600A1A7E0 /* NewSwiftFramework_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = D540CEBA23275DE600A1A7E0 /* NewSwiftFramework_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D50B18D1232836CD0005439E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D52E22A022CAE7B100850337 /* NewSwiftFramework_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NewSwiftFramework_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D52E22A322CAE7B100850337 /* NewSwiftFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewSwiftFramework.h; sourceTree = "<group>"; };
 		D52E22A422CAE7B100850337 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 		D52E229622CAE7B100850337 = {
 			isa = PBXGroup;
 			children = (
+				D50B18D1232836CD0005439E /* README.md */,
 				D540CEA023275D3000A1A7E0 /* Common */,
 				D52E22A222CAE7B100850337 /* NewSwiftFramework */,
 				D540CEC623275E2300A1A7E0 /* NewSwiftFramework-watchOS */,
@@ -310,6 +313,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D50B18D2232836CD0005439E /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -592,7 +596,7 @@
 		D540CEBE23275DE600A1A7E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-                BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8F4NZ9TY3N;
@@ -620,7 +624,7 @@
 		D540CEBF23275DE600A1A7E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-                BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8F4NZ9TY3N;
@@ -648,8 +652,8 @@
 		D540CECB23275E2300A1A7E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-                BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8F4NZ9TY3N;
@@ -677,8 +681,8 @@
 		D540CECC23275E2300A1A7E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-                BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8F4NZ9TY3N;
@@ -706,7 +710,7 @@
 		D540CED823275E4300A1A7E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-                BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -734,7 +738,7 @@
 		D540CED923275E4300A1A7E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-                BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
