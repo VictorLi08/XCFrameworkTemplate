@@ -1,0 +1,11 @@
+framework module NewSwiftFramework_watchOS {
+  umbrella header "NewSwiftFramework_watchOS.h"
+
+  export *
+  module * { export * }
+}
+
+module NewSwiftFramework_watchOS.Swift {
+    header "NewSwiftFramework_watchOS-Swift.h"
+    requires objc
+}

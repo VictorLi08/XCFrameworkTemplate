@@ -1,0 +1,4 @@
+framework module NewSwiftFramework_iOS {
+  header "NewSwiftFramework_iOS-Swift.h"
+  requires objc
+}

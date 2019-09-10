@@ -6,30 +6,79 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		00PjSJMPyLefgJMWjIhDRn/Ssaw=
+		Rd8WQ0+2CmUTe09W7G/S+XfFrrc=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/NewSwiftFramework_macOS-Swift.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+0ZNSRcpGO/wERGOYxIfehmNW9Uhzy6DSTKQPiaAP24=
+			</data>
+		</dict>
 		<key>Headers/NewSwiftFramework_macOS.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			G+dJ6Nnu1p6UNFs1BtmN8m8iHZex8u8oIy1G2c+VDgU=
+			rbPMSLvJ+xG8u6O9lOK1fJcyyXYJ2Ba4pGFiLOWEEzc=
+			</data>
+		</dict>
+		<key>Modules/NewSwiftFramework_macOS.swiftmodule/x86_64-apple-macos.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TOCH/tI5MKMzMjmQMGEdDPAdMwaU1I4LoE2Oglx3+XM=
+			</data>
+		</dict>
+		<key>Modules/NewSwiftFramework_macOS.swiftmodule/x86_64-apple-macos.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			km8Efk4YyoxNhb11LGguQZJrPF9rNCCrG2kR0sBV+qg=
+			</data>
+		</dict>
+		<key>Modules/NewSwiftFramework_macOS.swiftmodule/x86_64-apple-macos.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FZ2TdEHjy9lTThXWZayLy4LFOuuiv27QX7pRKwI1u7I=
+			</data>
+		</dict>
+		<key>Modules/NewSwiftFramework_macOS.swiftmodule/x86_64.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TOCH/tI5MKMzMjmQMGEdDPAdMwaU1I4LoE2Oglx3+XM=
+			</data>
+		</dict>
+		<key>Modules/NewSwiftFramework_macOS.swiftmodule/x86_64.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			km8Efk4YyoxNhb11LGguQZJrPF9rNCCrG2kR0sBV+qg=
+			</data>
+		</dict>
+		<key>Modules/NewSwiftFramework_macOS.swiftmodule/x86_64.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FZ2TdEHjy9lTThXWZayLy4LFOuuiv27QX7pRKwI1u7I=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yEvXhvxNsIVQkeoba2sSzswG11lSo0M6a1d19NM/gTo=
+			XBtk6rF9/om0Fr7tDDoSLyVSUfl9uhAUz6vqBfARcjA=
 			</data>
 		</dict>
 		<key>Resources/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gxRxMaAAZnYEv3nreTmELRITO+F0O6kfAThBQsA0G8k=
+			7dGBILSh8pVShZRUjZI6wrik1DeeShGZeZQpl5ELUV4=
 			</data>
 		</dict>
 	</dict>

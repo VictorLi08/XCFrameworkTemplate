@@ -2,11 +2,11 @@
 //  NewSwiftFramework_macOS.h
 //  NewSwiftFramework-macOS
 //
-//  Created by Victor Li on 7/1/19.
+//  Created by Victor Li on 2019/9/9.
 //  Copyright © 2019 Mesarthim. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for NewSwiftFramework_macOS.
 FOUNDATION_EXPORT double NewSwiftFramework_macOSVersionNumber;

@@ -22,16 +22,29 @@
 
 /* Begin PBXBuildFile section */
 		D52E22A522CAE7B100850337 /* NewSwiftFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D52E22A322CAE7B100850337 /* NewSwiftFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D52E22CC22CAECD700850337 /* NewSwiftFramework_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = D52E22CA22CAECD700850337 /* NewSwiftFramework_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D540CEA223275D4000A1A7E0 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = D540CEA123275D4000A1A7E0 /* Example.swift */; };
+		D540CEBC23275DE600A1A7E0 /* NewSwiftFramework_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = D540CEBA23275DE600A1A7E0 /* NewSwiftFramework_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D540CEC923275E2300A1A7E0 /* NewSwiftFramework_watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = D540CEC723275E2300A1A7E0 /* NewSwiftFramework_watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D540CED623275E4300A1A7E0 /* NewSwiftFramework_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = D540CED423275E4300A1A7E0 /* NewSwiftFramework_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D540CEDA23275E6F00A1A7E0 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = D540CEA123275D4000A1A7E0 /* Example.swift */; };
+		D540CEDB23275E8700A1A7E0 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = D540CEA123275D4000A1A7E0 /* Example.swift */; };
+		D540CEDC23275E8B00A1A7E0 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = D540CEA123275D4000A1A7E0 /* Example.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D52E22A022CAE7B100850337 /* NewSwiftFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NewSwiftFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D52E22A022CAE7B100850337 /* NewSwiftFramework_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NewSwiftFramework_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D52E22A322CAE7B100850337 /* NewSwiftFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewSwiftFramework.h; sourceTree = "<group>"; };
 		D52E22A422CAE7B100850337 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D52E22C822CAECD700850337 /* NewSwiftFramework_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NewSwiftFramework_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D52E22CA22CAECD700850337 /* NewSwiftFramework_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewSwiftFramework_macOS.h; sourceTree = "<group>"; };
-		D52E22CB22CAECD700850337 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D540CEA123275D4000A1A7E0 /* Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
+		D540CEB823275DE600A1A7E0 /* NewSwiftFramework_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NewSwiftFramework_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D540CEBA23275DE600A1A7E0 /* NewSwiftFramework_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewSwiftFramework_tvOS.h; sourceTree = "<group>"; };
+		D540CEBB23275DE600A1A7E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D540CEC523275E2300A1A7E0 /* NewSwiftFramework_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NewSwiftFramework_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D540CEC723275E2300A1A7E0 /* NewSwiftFramework_watchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewSwiftFramework_watchOS.h; sourceTree = "<group>"; };
+		D540CEC823275E2300A1A7E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D540CED223275E4300A1A7E0 /* NewSwiftFramework_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NewSwiftFramework_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D540CED423275E4300A1A7E0 /* NewSwiftFramework_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewSwiftFramework_macOS.h; sourceTree = "<group>"; };
+		D540CED523275E4300A1A7E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +55,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D52E22C522CAECD700850337 /* Frameworks */ = {
+		D540CEB523275DE600A1A7E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D540CEC223275E2300A1A7E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D540CECF23275E4300A1A7E0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -55,8 +82,11 @@
 		D52E229622CAE7B100850337 = {
 			isa = PBXGroup;
 			children = (
+				D540CEA023275D3000A1A7E0 /* Common */,
 				D52E22A222CAE7B100850337 /* NewSwiftFramework */,
-				D52E22C922CAECD700850337 /* NewSwiftFramework-macOS */,
+				D540CEC623275E2300A1A7E0 /* NewSwiftFramework-watchOS */,
+				D540CEB923275DE600A1A7E0 /* NewSwiftFramework-tvOS */,
+				D540CED323275E4300A1A7E0 /* NewSwiftFramework-macOS */,
 				D52E22A122CAE7B100850337 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,8 +94,10 @@
 		D52E22A122CAE7B100850337 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D52E22A022CAE7B100850337 /* NewSwiftFramework.framework */,
-				D52E22C822CAECD700850337 /* NewSwiftFramework_macOS.framework */,
+				D52E22A022CAE7B100850337 /* NewSwiftFramework_iOS.framework */,
+				D540CEB823275DE600A1A7E0 /* NewSwiftFramework_tvOS.framework */,
+				D540CEC523275E2300A1A7E0 /* NewSwiftFramework_watchOS.framework */,
+				D540CED223275E4300A1A7E0 /* NewSwiftFramework_macOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,11 +111,37 @@
 			path = NewSwiftFramework;
 			sourceTree = "<group>";
 		};
-		D52E22C922CAECD700850337 /* NewSwiftFramework-macOS */ = {
+		D540CEA023275D3000A1A7E0 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				D52E22CA22CAECD700850337 /* NewSwiftFramework_macOS.h */,
-				D52E22CB22CAECD700850337 /* Info.plist */,
+				D540CEA123275D4000A1A7E0 /* Example.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D540CEB923275DE600A1A7E0 /* NewSwiftFramework-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				D540CEBA23275DE600A1A7E0 /* NewSwiftFramework_tvOS.h */,
+				D540CEBB23275DE600A1A7E0 /* Info.plist */,
+			);
+			path = "NewSwiftFramework-tvOS";
+			sourceTree = "<group>";
+		};
+		D540CEC623275E2300A1A7E0 /* NewSwiftFramework-watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				D540CEC723275E2300A1A7E0 /* NewSwiftFramework_watchOS.h */,
+				D540CEC823275E2300A1A7E0 /* Info.plist */,
+			);
+			path = "NewSwiftFramework-watchOS";
+			sourceTree = "<group>";
+		};
+		D540CED323275E4300A1A7E0 /* NewSwiftFramework-macOS */ = {
+			isa = PBXGroup;
+			children = (
+				D540CED423275E4300A1A7E0 /* NewSwiftFramework_macOS.h */,
+				D540CED523275E4300A1A7E0 /* Info.plist */,
 			);
 			path = "NewSwiftFramework-macOS";
 			sourceTree = "<group>";
@@ -99,20 +157,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D52E22C322CAECD700850337 /* Headers */ = {
+		D540CEB323275DE600A1A7E0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D52E22CC22CAECD700850337 /* NewSwiftFramework_macOS.h in Headers */,
+				D540CEBC23275DE600A1A7E0 /* NewSwiftFramework_tvOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D540CEC023275E2300A1A7E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D540CEC923275E2300A1A7E0 /* NewSwiftFramework_watchOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D540CECD23275E4300A1A7E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D540CED623275E4300A1A7E0 /* NewSwiftFramework_macOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D52E229F22CAE7B100850337 /* NewSwiftFramework */ = {
+		D52E229F22CAE7B100850337 /* NewSwiftFramework-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D52E22A822CAE7B100850337 /* Build configuration list for PBXNativeTarget "NewSwiftFramework" */;
+			buildConfigurationList = D52E22A822CAE7B100850337 /* Build configuration list for PBXNativeTarget "NewSwiftFramework-iOS" */;
 			buildPhases = (
 				D52E229B22CAE7B100850337 /* Headers */,
 				D52E229C22CAE7B100850337 /* Sources */,
@@ -123,19 +197,55 @@
 			);
 			dependencies = (
 			);
-			name = NewSwiftFramework;
+			name = "NewSwiftFramework-iOS";
 			productName = NewSwiftFramework;
-			productReference = D52E22A022CAE7B100850337 /* NewSwiftFramework.framework */;
+			productReference = D52E22A022CAE7B100850337 /* NewSwiftFramework_iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D52E22C722CAECD700850337 /* NewSwiftFramework-macOS */ = {
+		D540CEB723275DE600A1A7E0 /* NewSwiftFramework-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D52E22CD22CAECD700850337 /* Build configuration list for PBXNativeTarget "NewSwiftFramework-macOS" */;
+			buildConfigurationList = D540CEBD23275DE600A1A7E0 /* Build configuration list for PBXNativeTarget "NewSwiftFramework-tvOS" */;
 			buildPhases = (
-				D52E22C322CAECD700850337 /* Headers */,
-				D52E22C422CAECD700850337 /* Sources */,
-				D52E22C522CAECD700850337 /* Frameworks */,
-				D52E22C622CAECD700850337 /* Resources */,
+				D540CEB323275DE600A1A7E0 /* Headers */,
+				D540CEB423275DE600A1A7E0 /* Sources */,
+				D540CEB523275DE600A1A7E0 /* Frameworks */,
+				D540CEB623275DE600A1A7E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NewSwiftFramework-tvOS";
+			productName = "NewSwiftFramework-tvOS";
+			productReference = D540CEB823275DE600A1A7E0 /* NewSwiftFramework_tvOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D540CEC423275E2300A1A7E0 /* NewSwiftFramework-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D540CECA23275E2300A1A7E0 /* Build configuration list for PBXNativeTarget "NewSwiftFramework-watchOS" */;
+			buildPhases = (
+				D540CEC023275E2300A1A7E0 /* Headers */,
+				D540CEC123275E2300A1A7E0 /* Sources */,
+				D540CEC223275E2300A1A7E0 /* Frameworks */,
+				D540CEC323275E2300A1A7E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NewSwiftFramework-watchOS";
+			productName = "NewSwiftFramework-watchOS";
+			productReference = D540CEC523275E2300A1A7E0 /* NewSwiftFramework_watchOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D540CED123275E4300A1A7E0 /* NewSwiftFramework-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D540CED723275E4300A1A7E0 /* Build configuration list for PBXNativeTarget "NewSwiftFramework-macOS" */;
+			buildPhases = (
+				D540CECD23275E4300A1A7E0 /* Headers */,
+				D540CECE23275E4300A1A7E0 /* Sources */,
+				D540CECF23275E4300A1A7E0 /* Frameworks */,
+				D540CED023275E4300A1A7E0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -143,7 +253,7 @@
 			);
 			name = "NewSwiftFramework-macOS";
 			productName = "NewSwiftFramework-macOS";
-			productReference = D52E22C822CAECD700850337 /* NewSwiftFramework_macOS.framework */;
+			productReference = D540CED223275E4300A1A7E0 /* NewSwiftFramework_macOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -157,11 +267,18 @@
 				TargetAttributes = {
 					D52E229F22CAE7B100850337 = {
 						CreatedOnToolsVersion = 11.0;
-					};
-					D52E22C722CAECD700850337 = {
-						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
 					};
 					D52E22D022CAED0D00850337 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					D540CEB723275DE600A1A7E0 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					D540CEC423275E2300A1A7E0 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					D540CED123275E4300A1A7E0 = {
 						CreatedOnToolsVersion = 11.0;
 					};
 				};
@@ -179,8 +296,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D52E229F22CAE7B100850337 /* NewSwiftFramework */,
-				D52E22C722CAECD700850337 /* NewSwiftFramework-macOS */,
+				D52E229F22CAE7B100850337 /* NewSwiftFramework-iOS */,
+				D540CEC423275E2300A1A7E0 /* NewSwiftFramework-watchOS */,
+				D540CEB723275DE600A1A7E0 /* NewSwiftFramework-tvOS */,
+				D540CED123275E4300A1A7E0 /* NewSwiftFramework-macOS */,
 				D52E22D022CAED0D00850337 /* NewSwiftFramework-Universal */,
 			);
 		};
@@ -194,7 +313,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D52E22C622CAECD700850337 /* Resources */ = {
+		D540CEB623275DE600A1A7E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D540CEC323275E2300A1A7E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D540CED023275E4300A1A7E0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -219,7 +352,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\n# Step 1: Remove existing .xcframework if applicable\nrm -rf ${PROJECT_NAME}.xcframework\n\n# Step 2. Build .framework for iOS Device\nxcodebuild -scheme ${PROJECT_NAME} -configuration ${CONFIGURATION} -sdk iphoneos OBJROOT=\"${OBJROOT}/DependentBuilds\"\n\n# Step 3. Build .framework for iOS Simulator\nxcodebuild -scheme ${PROJECT_NAME} -configuration ${CONFIGURATION} -sdk iphonesimulator OBJROOT=\"${OBJROOT}/DependentBuilds\"\n\n# Step 4. Build .framework for macOS (optional, only if your framework supports macOS)\nxcodebuild -scheme \"${PROJECT_NAME}-macOS\" -configuration ${CONFIGURATION} OBJROOT=\"${OBJROOT}/DependentBuilds\"\n\n# Step 5. Create .xcframework using each of the .frameworks built previously \nxcodebuild -create-xcframework -framework \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\" -framework \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework\" -framework \"${BUILD_DIR}/${CONFIGURATION}/${PROJECT_NAME}_macOS.framework\" -output ${PROJECT_NAME}.xcframework \n";
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\n# Step 1: Remove existing .xcframework if applicable\nrm -rf ${PROJECT_NAME}.xcframework\n\n# Step 2a. Build .framework for iOS\nxcodebuild -scheme \"${PROJECT_NAME}-iOS\" -configuration ${CONFIGURATION} -sdk iphoneos OBJROOT=\"${OBJROOT}/DependentBuilds\"\n\n# Step 2b. Build .framework for iOS Simulator\nxcodebuild -scheme \"${PROJECT_NAME}-iOS\" -configuration ${CONFIGURATION} -sdk iphonesimulator OBJROOT=\"${OBJROOT}/DependentBuilds\"\n\n# Step 2c. Build .framework for watchOS\nxcodebuild -scheme \"${PROJECT_NAME}-watchOS\" -configuration ${CONFIGURATION} -sdk watchos OBJROOT=\"${OBJROOT}/DependentBuilds\"\n\n# Step 2d. Build .framework for watchOS Simulator\nxcodebuild -scheme \"${PROJECT_NAME}-watchOS\" -configuration ${CONFIGURATION} -sdk watchsimulator OBJROOT=\"${OBJROOT}/DependentBuilds\"\n\n# Step 2e. Build .framework for tvOS\nxcodebuild -scheme \"${PROJECT_NAME}-tvOS\" -configuration ${CONFIGURATION} -sdk appletvos OBJROOT=\"${OBJROOT}/DependentBuilds\"\n\n# Step 2f. Build .framework for tvOS Simulator\nxcodebuild -scheme \"${PROJECT_NAME}-tvOS\" -configuration ${CONFIGURATION} -sdk appletvsimulator OBJROOT=\"${OBJROOT}/DependentBuilds\"\n\n# Step 2g. Build .framework for macOS\nxcodebuild -scheme \"${PROJECT_NAME}-macOS\" -configuration ${CONFIGURATION} -sdk macosx OBJROOT=\"${OBJROOT}/DependentBuilds\"\n\n# Step 3. Create .xcframework using each of the .frameworks built previously\nxcodebuild -create-xcframework -framework \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}_iOS.framework\" -framework \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}_iOS.framework\" -framework \"${BUILD_DIR}/${CONFIGURATION}-appletvos/${PROJECT_NAME}_tvOS.framework\" -framework \"${BUILD_DIR}/${CONFIGURATION}-appletvsimulator/${PROJECT_NAME}_tvOS.framework\" -framework \"${BUILD_DIR}/${CONFIGURATION}-watchos/${PROJECT_NAME}_watchOS.framework\" -framework \"${BUILD_DIR}/${CONFIGURATION}-watchsimulator/${PROJECT_NAME}_watchOS.framework\" -framework \"${BUILD_DIR}/${CONFIGURATION}/${PROJECT_NAME}_macOS.framework\" -output ${PROJECT_NAME}.xcframework\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -228,13 +361,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D540CEA223275D4000A1A7E0 /* Example.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D52E22C422CAECD700850337 /* Sources */ = {
+		D540CEB423275DE600A1A7E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D540CEDC23275E8B00A1A7E0 /* Example.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D540CEC123275E2300A1A7E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D540CEDB23275E8700A1A7E0 /* Example.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D540CECE23275E4300A1A7E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D540CEDA23275E6F00A1A7E0 /* Example.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +446,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -365,6 +516,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8F4NZ9TY3N;
@@ -382,6 +534,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = mesarthim.NewSwiftFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -391,6 +544,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8F4NZ9TY3N;
@@ -409,61 +563,6 @@
 				SKIP_INSTALL = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		D52E22CE22CAECD700850337 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 8F4NZ9TY3N;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "NewSwiftFramework-macOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "mesarthim.NewSwiftFramework-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = NO;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		D52E22CF22CAECD700850337 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 8F4NZ9TY3N;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "NewSwiftFramework-macOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				PRODUCT_BUNDLE_IDENTIFIER = "mesarthim.NewSwiftFramework-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = NO;
-				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -490,6 +589,176 @@
 			};
 			name = Release;
 		};
+		D540CEBE23275DE600A1A7E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+                BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8F4NZ9TY3N;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "NewSwiftFramework-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "ophiuchi.NewSwiftFramework-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.0;
+			};
+			name = Debug;
+		};
+		D540CEBF23275DE600A1A7E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+                BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8F4NZ9TY3N;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "NewSwiftFramework-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "ophiuchi.NewSwiftFramework-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.0;
+			};
+			name = Release;
+		};
+		D540CECB23275E2300A1A7E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+                BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8F4NZ9TY3N;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "NewSwiftFramework-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "ophiuchi.NewSwiftFramework-watchOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		D540CECC23275E2300A1A7E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+                BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8F4NZ9TY3N;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "NewSwiftFramework-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "ophiuchi.NewSwiftFramework-watchOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		D540CED823275E4300A1A7E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+                BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8F4NZ9TY3N;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "NewSwiftFramework-macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "ophiuchi.NewSwiftFramework-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D540CED923275E4300A1A7E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+                BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8F4NZ9TY3N;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "NewSwiftFramework-macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "ophiuchi.NewSwiftFramework-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -502,20 +771,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D52E22A822CAE7B100850337 /* Build configuration list for PBXNativeTarget "NewSwiftFramework" */ = {
+		D52E22A822CAE7B100850337 /* Build configuration list for PBXNativeTarget "NewSwiftFramework-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D52E22A922CAE7B100850337 /* Debug */,
 				D52E22AA22CAE7B100850337 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D52E22CD22CAECD700850337 /* Build configuration list for PBXNativeTarget "NewSwiftFramework-macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D52E22CE22CAECD700850337 /* Debug */,
-				D52E22CF22CAECD700850337 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -525,6 +785,33 @@
 			buildConfigurations = (
 				D52E22D222CAED0D00850337 /* Debug */,
 				D52E22D322CAED0D00850337 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D540CEBD23275DE600A1A7E0 /* Build configuration list for PBXNativeTarget "NewSwiftFramework-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D540CEBE23275DE600A1A7E0 /* Debug */,
+				D540CEBF23275DE600A1A7E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D540CECA23275E2300A1A7E0 /* Build configuration list for PBXNativeTarget "NewSwiftFramework-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D540CECB23275E2300A1A7E0 /* Debug */,
+				D540CECC23275E2300A1A7E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D540CED723275E4300A1A7E0 /* Build configuration list for PBXNativeTarget "NewSwiftFramework-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D540CED823275E4300A1A7E0 /* Debug */,
+				D540CED923275E4300A1A7E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

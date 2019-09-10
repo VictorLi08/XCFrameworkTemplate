@@ -4,3 +4,8 @@ framework module NewSwiftFramework_macOS {
   export *
   module * { export * }
 }
+
+module NewSwiftFramework_macOS.Swift {
+    header "NewSwiftFramework_macOS-Swift.h"
+    requires objc
+}
